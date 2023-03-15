@@ -175,6 +175,11 @@ int main()
 			deletar();
 			break;
 			
+			case 4:
+			printf("\t\t\tSaindo do sistema...");
+			return 0;
+			break;
+			
 			default:
 			printf("\t\t A opção %s não está disponível tente novamente!\n",opcao);
 			system("pause");
